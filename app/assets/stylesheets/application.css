@@ -11,5 +11,20 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require devise_bootstrap_views
+ *= require font-awesome
  *= require_self
  */
+ .results-block {
+  display: inline-block;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.left-padding
+{
+  padding-left: 15px;
+  padding-right: 0px !important;
+}
